@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osaka Package Details</title>
+    <!-- Link to CSS files -->
+    <link rel="stylesheet" href="generic.css">
+    <link rel="stylesheet" href="package_details.css">
+</head>
+<body>
+        <!-- Back to top button -->
+        <button id="returnBtn">
+            <a href="#headerContainer" id = 'returnBtnA'>Return to Top</a>
+        </button>
+
+        <header>
+
+            <!-- Header which contains links -->
+            <div class="header-container" id="headerContainer">
+                <!-- Navigation List -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#destinationSelector">Destinations</a></li>
+                        <li><a href="packages.html">Promotions</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <!-- Descriptors for decoration -->
+                <div id = "header-container-text">
+                    <h1> Regent Travel </h1>
+                    <p id = 'headerContainerIdentifier'> Japan </p>
+                    <p id = 'headerContainerSubIdentifier'> 5D 3N Tokyo City Exploration </p>                    
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- Body containing promotion details -->
+        <div class = 'details_body'> 
+            
+            <p>FLIGHT DETAILS</p>
+
+            <div id = 'flightDetails'>
+
+                <!-- Header for flight details -->
+                <div id = 'flightDetailsHeader'>
+                    <p id ='departingText'>DEPARTING</p>
+                    <p id = 'airlineText'>AIRLINE</p>
+                    <p id = 'fromText'>PRICING</p>
+                </div>
+                <hr>
+                <!-- First line of flight details -->
+                <p class = 'flightEntryDate'>Fri, 23 Jun 2023</p>
+                <img class = 'flightEntryImg' src="Images/scoot_logo.png" height='90px' width='90px' alt="SIA_logo">
+                <p class = flightEntryPrice> S$3600 </p>
+                <!-- Second line of flight details -->
+                <p class = 'flightEntryDate'>Fri, 25 Jun 2023</p>
+                <img class = 'flightEntryImg' src="Images/singapore_airlines.png" height='90px' width='90px' alt="SIA_logo">
+                <p class = flightEntryPrice> S$3800 </p>
+                <!-- Third line of flight details -->
+                <p class = 'flightEntryDate'>Fri, 26 Jun 2023</p>
+                <img class = 'flightEntryImg' src="Images/japan_airline.png" height='90px' width='90px' alt="SIA_logo">
+                <p class = flightEntryPrice> S$3900 </p>
+
+            </div>
+
+            <p>ITINERARY</p>
+
+            <div class = 'itineraryEntry'>
+                <p class = 'itineraryDayText'>DAY 1</p>
+                <hr>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Morning</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Take your selected flight from Singapore to Tokyo Narita Airport
+                    </p>
+                </div>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Afternoon</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Embark on a water sightseeing bus tour running between the Sumida River and Odaiba
+                        with a total of 8 stops along the way. This Mirai sightseeing ship was specially designed by
+                        Japanese animation master Reiji Matsumoto. It has a cool appearance and looks like a teardrop
+                        and the ehtire hull is covered with a glass roof. Enjoy the breathtaking scenery of Tokyo on both
+                        sides of the strait while sitting in this stunning ship.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 60px;'src="Images/details_day1_afternoon.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Evening</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        End the night at Takanawa Hanakohro hotel.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class = 'itineraryEntry'>
+                <p class = 'itineraryDayText'>DAY 2</p>
+                <hr>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Morning - Afternoon</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Spend the day at Tokyo DisneySea and Tokyo Disneyland.
+                        First opened in 2001, the entire park sports a nautical theme and has seven main areas or “ports of call.” 
+                        Each area features a number of rides, attractions, and entertainment venues based on characters, stories, 
+                        and movies from the Disney collection.
+                        With lots to do and a true plethora of entertainment options, 
+                        you will find yourself wanting to return again and again.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 60px;'src="Images/details_day2_morning.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Evening</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        End your night at Tokyo's 3-star accomodation - Tune Inn Ebisu #2
+                        located conveniently in the center of Tokyo.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class = 'itineraryEntry'>
+                <p class = 'itineraryDayText'>DAY 3</p>
+                <hr>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Morning</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Visit the Meiji Jingu - a Shinto shrine dedicated to the Emperor Meiji and 
+                        his wife, Empress Shoken. It is located in Tokyo’s Shibuya ward. The shrine is surrounded 
+                        by a forest park consisting of over 120,000 trees donated by people from all parts of Japan. 
+                        Together with the adjacent Yoyogi Park, Meiji Jingu is part of a large greenspace in central Tokyo. 
+                        Enormous torii, or gates, mark the entrance to the shrine complex. Because of its size and the relative 
+                        seclusion it offers, Meiji Jingu is an extremely popular location.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 80px;'src="Images/details_day3_morning.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Afternoon</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Head over to Tokyo Skytree, the world's tallest tower at 634 meters and
+                        enjoy Tokyo's paranomic view from the top of Sumida City.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 20px;'src="Images/details_day3_afternoon.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Evening</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        After your Tokyo Skytree experience, end your day off at Aman Tokyo located
+                        nearby the skytree for a good nights rest.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class = 'itineraryEntry'>
+                <p class = 'itineraryDayText'>DAY 4</p>
+                <hr>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Morning - Afternoon</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Head over to Sanrio Puroland, also known as Hello Kitty Land, 
+                        Tokyo's indoor amusement park based on Sanrio cartoon stars
+                        Hello Kitty, My Melody, Pom Pom Purin, and Jewelpet.
+                        Fantasy-like, inviting, and full of creativity, it is a popular attraction 
+                        for both children and adults.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 30px;'src="Images/details_day4_afternoon.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Evening</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Check into Keio Plaza Hotel Tama near Sanrio Puroland 
+                        where you'll be staying for the night.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class = 'itineraryEntry'>
+                <p class = 'itineraryDayText'>DAY 5</p>
+                <hr>
+                <div class = itineraryEventEntry>
+                    <p><u><b>Morning</b></u></p>
+                    <!-- Itinerary Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        TeamLab Planets is a museum where you walk through water, and a garden 
+                        where you become one with the flowers. There are four massive exhibition 
+                        spaces and two gardens. By immersing the entire body with other people in 
+                        these massive body immersive artworks, the boundary between the body and 
+                        the artwork dissolves, the boundaries between the self, others, and the
+                         world become continuous, and we explore a new relationship without 
+                         boundaries between ourselves and the world.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 70px;'src="Images/details_day5_morning.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Afternoon</b></u></p>
+                    <!-- Itinerary Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Located in a western portion of Tokyo, the Ghibli Museum is dedicated 
+                        to showcasing the work of the Japanese animation house Studio Ghibli. 
+                        Designed by Studio Ghibli director Hayao Miyazaki, the museum is heavily
+                         influenced by European architectural styles. Miyazaki used film storyboards 
+                         to sketch out a plan inspired by locations such as the hilltop village of 
+                         Calcata in Italy. Full of everything related to Ghibli animations, visitors
+                          can not only take a look at the animation buildings, they can also see 
+                          original Ghibli works and other animation materials. The museum’s souvenir 
+                          shop and themed restaurant are also very popular.
+                    </p>
+                </div>
+                <!-- Image Extracted from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                <img class = 'itineraryEventImg' style = 'margin-top: 90px;'src="Images/details_day5_afternoon.jpeg" alt="Day1_Morning">
+                
+                <div class = itineraryEventEntry>
+                    <p><u><b>Evening</b></u></p>
+                    <!-- Itinerary Summarized from https://www.trip.com/hot/travel-itinerary/tokyo-itinerary-7-days.html -->
+                    <p>
+                        Your trip has been completed. Have a safe flight back to Singapore from Tokyo.
+                        We hope you had an enjoyable time here in Tokyo and we hope to see you again!
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            <address>© 2023 Regent Travel</address>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* [2] GT America fonts extracted from https://befonts.com/gt-america-font-family.html */
+@font-face {
+    font-family: 'GT1';
+    src: url(GT-America/GT-America-Mono-Light-Trial.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GT2';
+    src: url(GT-America/GT-America-Mono-Thin-Italic-Trial.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'GT3';
+    src: url(GT-America/GT-America-Compressed-Thin-Italic-Trial.otf) format('opentype');
+}
+
+html{
+    font-family: 'Graphik', sans-serif;
+}
+
+body, h1{
+    margin: 0; 
+    padding: 0;
+}
+
+#returnBtn{
+    position: fixed; /* Fixed/sticky position */
+    bottom: 13px; /* Place the button at the bottom of the page */
+    right: 30px; 
+    z-index: 1; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    background-color: #7e7f86; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 13px; /* Increase font size */
+    font-family: 'GT2', sans-serif;
+}
+
+#returnBtnA{
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text Color */
+}
+
+/* ////////////////////////////////////////// */
+/* Generic Header CSS */
+
+.header-container nav > ul > li{
+    display: table-cell;
+    text-align: center;
+    font-size: 1.5em;
+    /* 25% because 4 links, share the 100% */
+    width: 25%;
+    font-family: 'GT3', sans-serif;
+}
+
+.header-container nav a{
+    display: block;
+    /* Make links look more centered */
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+/* Remove default underline of links */
+.header-container nav a:link, .header-container nav a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* Change style when mouse hovered over links */
+.header-container nav a:hover{
+    background-color: gray;
+}
+/* ////////////////////////////////////////// */
+/* NAV list CSS styles */
+.header-container nav{
+    display: table;
+    width: 100%;
+}
+
+.header-container nav > ul{
+    display: table-row;
+}
+
+
+/* CSS for decoration descriptors */
+.header-container h1{
+    font-family: 'GT1', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 30vh;
+}
+
+#header-container-text{
+    text-shadow:
+    1px 0 black,
+    0 1px black,
+    -1px 0 black,
+    0 -1px black;
+}
+
+#headerContainerIdentifier{
+    margin: 20px;
+    font-family: 'GT2', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.header-container p{
+    margin: 0;
+    font-family: 'GT2', sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* ////////////////////////////////////////// */
+/* Footer CSS styling */
+footer{
+    height: 40px;
+    background-color: #7e7f86;
+    color: white;
+    padding-left: 4vw;
+    padding-top: 23px;
+    font-family: 'GT2', sans-serif;
+}

@@ -1,0 +1,154 @@
+/* Container holding the image and the text */
+.header-container {
+    /* Background image */ 
+    /* [1] index_header.jpg extracted from wallpapers.com */
+    background: url("Images/index_header.jpeg");
+    /* Background image */ 
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw; 
+    height: 100vh; 
+    background-size: cover; /* Cover all available space */
+
+    /* Container generic css */
+    padding: 0; /* No padding */
+    margin: 0; /* No margins */
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* CSS for description #1 and #2 */
+#ourStory, #whatWeOffer{
+    font-size: 20px;
+    height: 100vh;
+}
+
+#ourStory{
+    background-color: #DAF0F7;
+}
+
+#whatWeOffer{
+    background-color: #D5E3F0;
+}
+
+#ourStory h1, #whatWeOffer h1{
+    font-size: 2em;
+    font-family: 'GT2', sans-serif;
+    width:50%;
+    padding-top: 50vh;
+    text-align: center;
+}
+
+/* CSS for one line Section headers */
+#ourStory h1{
+    float: left;
+}
+
+#whatWeOffer h1{
+    float: right;
+}
+
+/* CSS for contents in paragraph placed inside white bubble */
+#ourStory p, #whatWeOffer p{
+    font-family: 'GT3', sans-serif;
+    font-size: 1.6em;
+
+    border-radius: 50px;
+    background: white;
+    padding: 20px;
+    width:45%;
+}
+
+/* Adjust position of white bubble para 1*/
+#description-paragraph-1{
+    padding: 29vh 30px 0 40px;
+}
+
+/* Adjust position of white bubble para 2*/
+#description-paragraph-2{
+    padding: 28vh 30px 0 40px;
+}
+
+/* CSS for p inside bubble */
+#ourStory p{
+    height: 250px;
+    float: right;
+    padding-top: 20px;
+}
+
+/* CSS for p inside bubble */
+#whatWeOffer p{
+    height: 320px;
+    float: left;
+    padding-top: 20px;
+}
+
+/* ////////////////////////////////////////// */
+/* Destination Selector CSS */
+#destinationSelector{
+    height: 100vh;
+    background-color: #DAF0F7;
+    font-family: 'GT1', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Paragraph Select Your Destination */
+#destinationSelector >  p {
+    margin: 0;
+    font-size: 1.6em;
+    padding-top: 60px;
+}
+
+/* Each column bubble 20% space */
+.col-1-5{
+    /* Make sure that image fits within box */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    float: left;
+    border-radius: 50px;
+    height: 50vh;
+    width: 17vw;
+    margin: 100px 0px 0px 36px;
+}
+
+/* Wallpapers for individual regions */
+#col-1-5-asia{
+    /* [6] asia_wallpaper.jpeg Extracted from https://www.wallpaperflare.com/wallpaper-iphone-wallpaper-singapore-nature-asia-green-wallpaper-zsyxg */
+    background-image: url("Images/asia_wallpaper.jpeg");
+}
+
+#col-1-5-Europe{
+    /* [7] europe_wallpaper.jpeg Extracted from https://wallpaperaccess.com/europe-iphone */
+    background-image: url("Images/europe_wallpaper.jpeg");
+}
+
+#col-1-5-Exotic{
+    /* [8] exotic_wallpaper.jpeg Extracted from https://phoneky.com/iphone-live-wallpapers/?id=s3s218224 */
+    background-image: url("Images/exotic_wallpaper.jpeg");
+}
+
+#col-1-5-ME{
+    /* [9] middle_east_wallpaper.jpeg Extracted from https://www.pxfuel.com/en/desktop-wallpaper-jkozy */
+    background-image: url("Images/middle_east_wallpaper.jpeg");
+}
+
+#col-1-5-NA{
+    /* [10] na_wallpaper.jpeg Extracted from https://www.ilikewallpaper.net/new-york-iphone-x-wallpapers/ */
+    background-image: url("Images/na_wallpaper.jpeg");
+}
+
+/* Words inside column bubble */
+.col-contents{
+    position: relative;
+    top: 47%;
+}
+
+.col-contents a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}

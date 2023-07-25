@@ -1,0 +1,121 @@
+/* Container holding the image and the text */
+.header-container {
+    /* Background image */
+    /* [3] packages_header.jpg extracted from https://xaydungso.vn/bai-viet-khac/nhung-buc-anh-4k-wallpaper-japan-dep-nhat-ve-dat-nuoc-nhat-ban-vi-cb.html  */
+    background: url("Images/packages_header.jpg");
+    /* Background image */ 
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw; 
+    height: 100vh; 
+    background-size: cover; /* Cover all available space */
+
+    /* Container generic css */
+    padding: 0; /* No padding */
+    margin: 0; /* No margins */
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#packagesBodyContainer{
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    overflow: auto;
+    background-color: rgb(247, 211, 217);
+}
+
+#packagesBodyRow{
+    /* Specify dimensions of body row */
+    width: auto;
+    height: auto;
+    overflow:auto;
+    /* Center elements within row div */
+    display: flex;
+    justify-content: center;
+    /* Add margin for asthetics */
+    padding: 30px;
+}
+
+.packagesEntry{
+    /* Specify dimensions of elements in row */
+    height: 53vh;
+    width: 25vw;
+    margin: 30px;
+    /* Color and position styles */
+    background-color: white;
+    float: left;
+    /* Curved corners */
+    border-radius: 30px;
+}
+
+.packageImage{
+    /* Positioning of all package image */
+    width: 25vw;
+    height: 20vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* Make sure that image fits within box */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.package_intro{
+    font-family: 'GT1', sans-serif;
+    font-size: 0.8em;
+    position: relative;
+    padding-left: 20px;
+}
+
+.package_selling_points{
+    /* Center elements within row div */
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.attractions_visited{
+    font-family: 'GT3', sans-serif;
+    font-size: 0.8em;
+    background-color: rgb(248, 230, 233);
+    width: 100px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left:10px;
+    /* Center elements within row div */
+    display: flex;
+    justify-content: center;
+    /* Rounded corners */
+    border-radius: 10px;
+}
+
+.package_description{
+    font-family: 'GT3', sans-serif;
+    /* Center elements within row div */
+    display: flex;
+    justify-content: left;
+    padding: 20px 20px 0 20px;
+}
+
+.package_price{
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+.package_price > p{
+    display: block;
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: 'GT1', sans-serif;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.ActualPrice{
+    color: green;
+}

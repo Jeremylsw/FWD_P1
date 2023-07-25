@@ -1,0 +1,126 @@
+/* Container holding the image and the text */
+.header-container {
+    /* Background image */ 
+    /* [5] contact_us_header.jpeg extracted from https://conciergezermatt.com/ */
+    background: url("Images/contact_us_header.jpeg");
+    /* Background image */ 
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw; 
+    height: 100vh; 
+    background-size: cover; /* Cover all available space */
+
+    /* Container generic css */
+    padding: 0; /* No padding */
+    margin: 0; /* No margins */
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* Main block of content in middle of contact form */
+#cfMainBody{
+    height: 100vh;
+    background-color: rgb(208, 194, 194);
+}
+
+/* CSS for paragraph describing instructions to user */
+#cfMainBody > p{
+    display: block;
+    clear: both;
+    padding: 10vh 45vh;
+    margin: 0;
+    font-family: 'GT2', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* CSS for decorative block that contains form */
+#cfFormBlock{
+    margin: 0 45vh;
+    background-color: rgb(179, 159, 159);
+    color: white;
+    font-family: 'GT2', sans-serif;
+    height: auto;
+    overflow: auto; /* Needed to increase div to encapsulate all internal divs*/
+}
+
+#cfFormBlock p{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+/* CSS for name input row */
+#formNameRow{
+    display: block;
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+#formFirstName, #formLastName{
+    margin-left: 38px;
+    float: left;
+}
+
+#firstName, #lastName{
+    width: 250px;
+}
+
+/* CSS for email field */
+#formEmail{
+    display: block;
+    clear: both;
+    padding-left: 88px;
+    padding-top: 20px;
+}
+
+#email{
+    width: 547px;
+}
+
+/* CSS for region selection */
+#formRegion{
+    display: block;
+    clear: both;
+    padding-left: 88px;
+    padding-top: 20px;
+}
+
+#region{
+    text-align: center;
+    width:180px;    
+}
+
+/* CSS for budget slider */
+#formBudget{
+    display: block;
+    clear: both;
+    padding-left: 88px;
+    padding-top: 20px;
+}
+
+/* CSS for remarks textbox */
+#formRemarks{
+    display: block;
+    clear: both;
+    padding-left: 88px;
+    padding-top: 20px;
+}
+
+/* CSS for submit button */
+#formSubmitBtn{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+    left: 50%;
+    clear: both;
+    text-align: center;
+}
+
+#submitBtn{
+    text-align: center;
+    width: 15%;
+}
